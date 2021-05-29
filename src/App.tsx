@@ -1,9 +1,13 @@
 import React from 'react';
+import Card from "./components/Card";
 
 const App = () => {
     return (
         <div>
-          Работает!
+          <Card width='200px' height='200px'>
+              <button>Кнопка</button>
+              <div>text</div>
+          </Card>
         </div>
     );
 };
